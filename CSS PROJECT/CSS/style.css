@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+HR+Lijeva:wght@100..400&family=Sevillana&family=Zain:wght@200;300;400;700;800;900&display=swap');
+/*font-family: "Edu AU VIC WA NT Hand", cursive;
+font-family: "Playwrite HR Lijeva", cursive;
+font-family: "Sevillana", cursive;
+font-family: "Zain", sans-serif;
+font-family: "Edu AU VIC WA NT Hand", cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+/* Colors */
+    --white:#fff;
+    --dark-blue:#021331;
+    --black:#000;
+    --light-dark:#d8d8d8;
+    --darker-light:#888;
+    --dark:#333;
+    --gray:#555;
+    --darker:#111;
+    --light:#f8f8f8;
+    --dark-red:#8b0000;
+    --deep-red:#800517
+}
+
+body {
+    line-height:1.4;
+}
+
+p {
+    font-size:1.5rem;
+    font-family: "Zain", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width:100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Styling */
+nav .logo {
+    background: var(--darker);
+    color:var(--light);
+    font-size:2.3rem;
+    font-family: "Sevillana", cursive;
+    text-align: center;
+    padding:5px 0px;
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:var(--darker);
+    margin:0.5rem 0 2rem 0;
+}
+
+nav ul li {
+    font-family: "Zain", sans-serif;
+    font-size:1.5rem;
+}
+
+nav ul li a {
+    color:var(--light);
+    font-weight:650;
+    transition:0.7s;
+}
+
+nav ul li a:hover {
+    color:var(--light-dark);
+    font-size:2rem;
+}
+
+/* Header */
+
+.head {
+    width: 100%;
+}
+
+header .head .headline {
+    font-size:3.4rem;
+    text-align: center;
+    font-weight:800;
+    margin-bottom:2rem;
+    color:var(--dark-red);
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+
+.intro-text {
+    font-size:2.4rem;
+    text-align: center;
+    color:var(--deep-red);
+}
+
+.css-logo {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* About Page */
+.about-page {
+    margin-top:5rem;
+    text-shadow:3px 3px 10px #000;
+    word-spacing:0.3rem;
+    animation: fade 8s ease 2s infinite alternate;
+}
+
+/* Card Styles */
+.card-styles {
+    margin-top:3.6rem;
+    padding:0;
+}
+
+.card-styles h2 {
+    text-align: center;
+    color:var(--dark-red);
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-size:2.8rem;
+    font-weight:800;
+    margin-bottom:2.8rem;
+}
+
+.card-styles .cards {
+    margin:1.5rem 1rem;
+    background:var(--light);
+    border:2px var(--dark) solid;
+    border-radius:10px;
+    padding:15px;
+    box-shadow:10px 10px 3px #000; 
+}
+
+.card-styles .cards:hover {
+    box-shadow:inset 0px 0px 70px #000;
+    margin:1.5rem 0;
+    transition:0.5s;
+}
+
+.card-styles .cards h3 {
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-weight:700;
+    font-size:1.4rem;
+    color:var(--dark-blue);
+    margin-bottom:2rem;
+}
+
+.card-styles .cards p {
+    margin:0 0.4rem;
+    text-align: center;
+}
+
+/* About CSS */
+
+.learn-css {
+    margin-top: 4.2rem;
+}
+
+.learn-css h2 {
+    text-align: center;
+    color:var(--dark-red);
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-size:2.8rem;
+    font-weight:800;
+    margin:0 auto;
+    margin-bottom:1.1rem;
+}
+
+.learn-css p {
+    margin-bottom:2.5rem;
+}
+
+/* CSS TUTORIALS */
+
+.learn-css .buttons {
+    width:100%;
+    height:500px;
+    margin:auto;
+}
+
+.btn {
+    background:var(--darker);
+    color:var(--light);
+    font-size:1.9rem;
+    font-weight:580;
+    font-family: "Zain", sans-serif;
+    border:4px var(--light-dark) solid;
+    padding: 20px;
+    display: block;
+    margin:20px 0;
+    border-radius:15px;
+    text-align:center;
+    transition:0.7s;
+}
+
+.learn-css .buttons .btn:hover {
+    background:var(--dark-red);
+    color: var(--light);
+}
+
+/* THE CODE BELOW IS FOR MY TO DO LIST */
+
+.list {
+    width:100%;
+    margin:3rem 0 0 0;
+    background:var(--black);
+    color:var(--light);
+    border:1px var(--dark) solid;
+}
+
+.list .profession .center {
+    width:70%;
+    margin:0 auto;
+}
+
+.list h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight:700;
+    font-family:Helvetica;
+    margin-bottom:1.5rem;
+}
+
+.list .prof-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--dark);
+    padding:0;
+    margin: 1.2rem 0;
+}
+
+.list .profession .prof-title h3 {
+    color: #aaa;
+    font-family: Georgia,'Times New Roman',serif;
+    padding-left:0.7rem;
+    font-size: 1.2rem;
+    margin:1.2rem 0;
+    background: var(--dark);
+}
+
+.prof-title .prof-title-icon {
+    width:2rem;
+    height: 2rem;
+    padding: 2px;
+    margin-right:0.7rem;
+    background: #fff;
+}
+
+.profession .center ul li {
+    margin:0.9rem 0;
+    padding:0.5rem;
+    border-bottom:1.3px var(--gray) solid;
+    display: flex;
+    font-size:1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.center ul li span {
+    font-weight:700;
+    font-size:1.3rem;
+    color: #ccc;
+    margin:1rem 0;
+}
+
+.center ul li .lang-icon {
+    width:2rem;
+    height: 2rem;
+    padding: 2px;
+    margin-right:1rem;
+}
+
+/* THE TODO LIST CODE ENDS HERE */
+
+/* DEV DIVINE WEBPAGE STYLING */
+
+.bio {
+    margin-top:2.5rem;
+}
+
+section {
+    margin-top:4rem;
+}
+
+section .container h2 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-bottom: 1.2rem;
+    color: var(--dark-red);
+}
+
+.dev-img {
+    float: left;
+    width:28%;
+    border-radius: 1rem;
+    margin:0 1rem 1rem 0;
+}
+
+section .container p {
+    font-size: 1.5rem;
+}
+
+.link-in-text {
+    color:red;
+    font-weight: 420;
+}
+
+.link-in-text:hover {
+    color: var(--dark-red);
+}
+
+.container #whatsapp-groups h3 {
+    color:var(--dark-red);
+    font-family:Helvetica;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    font-weight: 800;
+}
+
+.whatsapp-links {
+    background:var(--dark-red);
+    color: var(--light);
+    border:1.5px var(--darker) solid;
+    border-radius:0.8rem;
+    display: inline-block;
+    padding:0.6rem;
+    margin:1.3rem 0.6rem;
+    font-weight:600;
+    font-family: "Times New Roman", Sans-Serif;
+}
+
+.whatsapp-links:hover {
+    background: red;
+}
+
+
+/* DEV DIVINE WEBPAGE STYLING ENDS HERE */
+
+/* Footer */
+
+footer {
+    background:var(--darker);
+    color:var(--light);
+    margin-top:1rem;
+}
+
+footer h3 {
+    color:var(--white);
+    font-family: fantasy;
+    font-size:1.8rem;
+    margin-bottom:2.5rem;
+    text-align: center;
+}
+
+footer .media {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin: 0 auto;
+    width:300px;
+    
+}
+
+footer .media .icon {
+    background: var(--gray);
+    border-radius:30px;
+    width:2rem;
+    height:2rem;
+    margin:0 10px;
+    transition:0.4s;
+}
+
+footer .media .icon:hover {
+    width:2.3rem;
+    height:2.3rem;
+    background: var(--white);
+    margin: 0 13px;
+}
+
+footer hr {
+    margin:2rem 0 0 0;
+    color:var(--gray);
+}
+
+footer .close {
+    padding:3rem 0 4.3rem 0 ;
+}
+
+footer .close p {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    word-spacing:0.2rem;
+    letter-spacing:0.2rem;
+    font-weight:650;
+    font-size:0.8rem;
+}
+
+
+
+
+/* Utility Classes */
+
+.container {
+    max-width:80%;
+    margin: 0 auto;
+}
+
+@keyframes fade {
+    0% {
+        opacity:1;
+    }
+    20% {
+        opacity:0.8;
+    }
+    40% {
+        opacity: 0.7;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+    80% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+/* Media Querys */
+
+
+@media (max-width: 575px) {
+    header {
+        display:block;
+    }
+    header .head {
+        width:100%;
+    }
+    header .head .headline {
+        font-size:3rem;
+    }
+    header .css-logo {
+        width: 100%;
+    }
+    .learn-css .buttons {
+        width:100%;
+        height:500px;
+        margin:auto;
+    }
+}
+
+@media (min-width: 576px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .head {
+        width:60%;
+    }
+    header .css-logo {
+        width: 40%;
+    }
+    .learn-css .buttons {
+        width:350px;
+        height:500px;
+        margin:0 auto;
+    }
+}
+
+@media (min-width: 750px) {
+    .learn-css .buttons {
+        width:400px;
+        height:600px;
+        margin:0 auto;
+    }
+}
